@@ -1,0 +1,344 @@
+{
+  "keys": "D:\\work(node)\\lingshan\\config\\config.default.js",
+  "middleware": "D:\\work(node)\\lingshan\\config\\config.default.js",
+  "sequelize": {
+    "dialect": "D:\\work(node)\\lingshan\\config\\config.default.js",
+    "host": "D:\\work(node)\\lingshan\\config\\config.default.js",
+    "database": "D:\\work(node)\\lingshan\\config\\config.default.js",
+    "port": "D:\\work(node)\\lingshan\\config\\config.default.js",
+    "username": "D:\\work(node)\\lingshan\\config\\config.default.js",
+    "password": "D:\\work(node)\\lingshan\\config\\config.default.js",
+    "define": {
+      "freezeTableName": "D:\\work(node)\\lingshan\\config\\config.default.js",
+      "timestamps": "D:\\work(node)\\lingshan\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "D:\\work(node)\\lingshan\\config\\config.default.js",
+    "allowMethods": "D:\\work(node)\\lingshan\\config\\config.default.js",
+    "credentials": "D:\\work(node)\\lingshan\\config\\config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "D:\\work(node)\\lingshan\\config\\config.default.js",
+      "type": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "D:\\work(node)\\lingshan\\config\\config.default.js",
+    "protocolWhiteList": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "redis": {
+    "client": {
+      "port": "D:\\work(node)\\lingshan\\config\\config.default.js",
+      "host": "D:\\work(node)\\lingshan\\config\\config.default.js",
+      "password": "D:\\work(node)\\lingshan\\config\\config.default.js",
+      "db": "D:\\work(node)\\lingshan\\config\\config.default.js"
+    },
+    "default": "D:\\work(node)\\lingshan\\node_modules\\egg-redis\\config\\config.default.js",
+    "app": "D:\\work(node)\\lingshan\\node_modules\\egg-redis\\config\\config.default.js",
+    "agent": "D:\\work(node)\\lingshan\\node_modules\\egg-redis\\config\\config.default.js",
+    "supportTimeCommand": "D:\\work(node)\\lingshan\\node_modules\\egg-redis\\config\\config.default.js"
+  },
+  "io": {
+    "init": "D:\\work(node)\\lingshan\\config\\config.default.js",
+    "namespace": {
+      "/": {
+        "connectionMiddleware": "D:\\work(node)\\lingshan\\config\\config.default.js",
+        "packetMiddleware": "D:\\work(node)\\lingshan\\config\\config.default.js"
+      },
+      "/example": {
+        "connectionMiddleware": "D:\\work(node)\\lingshan\\config\\config.default.js",
+        "packetMiddleware": "D:\\work(node)\\lingshan\\config\\config.default.js"
+      }
+    }
+  },
+  "myAppName": "D:\\work(node)\\lingshan\\config\\config.default.js",
+  "session": {
+    "maxAge": "D:\\work(node)\\lingshan\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\work(node)\\lingshan\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\work(node)\\lingshan\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\work(node)\\lingshan\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\work(node)\\lingshan\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\work(node)\\lingshan\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\work(node)\\lingshan\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\work(node)\\lingshan\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\work(node)\\lingshan\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\work(node)\\lingshan\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\work(node)\\lingshan\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\work(node)\\lingshan\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\work(node)\\lingshan\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\work(node)\\lingshan\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\work(node)\\lingshan\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\work(node)\\lingshan\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\work(node)\\lingshan\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\work(node)\\lingshan\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\work(node)\\lingshan\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\work(node)\\lingshan\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\work(node)\\lingshan\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\work(node)\\lingshan\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\work(node)\\lingshan\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\work(node)\\lingshan\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\work(node)\\lingshan\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\work(node)\\lingshan\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\work(node)\\lingshan\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\work(node)\\lingshan\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\work(node)\\lingshan\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\work(node)\\lingshan\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\work(node)\\lingshan\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\work(node)\\lingshan\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\work(node)\\lingshan\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\work(node)\\lingshan\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\work(node)\\lingshan\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\work(node)\\lingshan\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\work(node)\\lingshan\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\work(node)\\lingshan\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\work(node)\\lingshan\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\work(node)\\lingshan\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "D:\\work(node)\\lingshan\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\work(node)\\lingshan\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\work(node)\\lingshan\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\work(node)\\lingshan\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\work(node)\\lingshan\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\work(node)\\lingshan\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\work(node)\\lingshan\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\work(node)\\lingshan\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\work(node)\\lingshan\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\work(node)\\lingshan\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\work(node)\\lingshan\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\work(node)\\lingshan\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\work(node)\\lingshan\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\work(node)\\lingshan\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\work(node)\\lingshan\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\work(node)\\lingshan\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\work(node)\\lingshan\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\work(node)\\lingshan\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\work(node)\\lingshan\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "egg": {
+      "declarations": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "await-stream-ready": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "egg": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "egg-redis": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "egg-sequelize": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "egg-socket.io": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "mysql2": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\work(node)\\lingshan\\node_modules\\egg\\config\\config.default.js"
+}
