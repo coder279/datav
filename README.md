@@ -9,5 +9,5 @@
 <br><br>
 <b>监听http://127.0.0.1:7024/xxx</b><br>
 <code>socket.emit(‘init’, {})
-socket.emit(‘record’, { item_id:1225,item_type:1 })</code>
+socket.emit(‘record’, { item_id:1225,item_type:1 })</code><br>
 <b>监控数据返回结果</b>
