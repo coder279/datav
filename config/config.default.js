@@ -68,6 +68,11 @@ module.exports = appInfo => {
         connectionMiddleware: [],
         packetMiddleware: [],
       },
+      '/lingshan': {
+        connectionMiddleware: [],
+        packetMiddleware: [],
+      },
+
     },
   };
 
