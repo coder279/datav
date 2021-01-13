@@ -6,8 +6,8 @@
 <b>启动项目</b><br> 
 <code>npm run start</code><br>
 <b>打开http://127.0.0.1:7024</b><br>
-<br><br><br><br>
+<br><br>
 <b>监听http://127.0.0.1:7024/xxx</b><br>
-<b>监控数据返回结果</b>
 <code>socket.emit(‘init’, {})
 socket.emit(‘record’, { item_id:1225,item_type:1 })</code>
+<b>监控数据返回结果</b>
